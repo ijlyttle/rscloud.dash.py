@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# rscloud.dash.py
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of rscloud.dash.py is to provide some helper functions to launch Python Dash apps from RStudio Cloud.
+
+## Installation
+
+You can install the development version of rscloud.dash.py like so:
+
+``` r
+devtools::install_github("ijlyttle/rscloud.dash.py")
+```
+
+## Example
+
+If you are developing a Python Dash app using RStudio Cloud, you can launch it with:
+
+```{r example, eval=FALSE}
+library("rscloud.dash.py")
+
+run_dash_app("dash.py")
+```
+
