@@ -4,6 +4,8 @@
 # rscloud.dash.py
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/ijlyttle/rscloud.dash.py/workflows/R-CMD-check/badge.svg)](https://github.com/ijlyttle/rscloud.dash.py/actions)
 <!-- badges: end -->
 
 The goal of rscloud.dash.py is to provide some helper functions to
