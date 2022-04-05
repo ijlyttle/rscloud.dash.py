@@ -15,6 +15,14 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     cli,
-    withr
+    rlang,
+    fs,
+    glue,
+    withr,
+    rstudioapi,
+    utils
 URL: https://github.com/ijlyttle/rscloud.dash.py
 BugReports: https://github.com/ijlyttle/rscloud.dash.py/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
