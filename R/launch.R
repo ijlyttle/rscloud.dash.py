@@ -35,7 +35,7 @@ run_dash_app <- function(path_app, venv = NULL, action = c("browse", "view")) {
         "x" = "File `{path_app}` not found."
       ),
       class = "rscloud_dash_py_error_file_not_found",
-      path_app = path_app
+      local = list(path_app = path_app)
     )
   }
 
@@ -50,7 +50,7 @@ run_dash_app <- function(path_app, venv = NULL, action = c("browse", "view")) {
           "x" = "File `{command}` not found."
         ),
         class = "rscloud_dash_py_error_venv_not_found",
-        command = command
+        local = list(venv = venv, command = command)
       )
     }
   }
