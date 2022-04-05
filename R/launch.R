@@ -21,7 +21,7 @@ translate_url <- function(absolute) {
 #'
 #' @examples \dontrun{
 #'   # not run because this function invokes side-effects
-#'   run_dash_app("app,py", venv = "venv")
+#'   run_dash_app("app,py", venv = "./venv")
 #' }
 #' @export
 #'

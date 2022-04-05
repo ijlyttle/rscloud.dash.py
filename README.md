@@ -27,5 +27,11 @@ launch it with:
 ``` r
 library("rscloud.dash.py")
 
-run_dash_app("dash.py")
+run_dash_app("dash.py", venv = "./venv")
 ```
+
+This will open your local browser to the Dash App, but **you will have
+to reload** the page after a few seconds, because the browser is
+launched *before* the Dash app is launched. It has to be in this order
+because the launching the app consumes the R session. I know there has
+to be a clever way to get around this, but `¯\_(ツ)_/¯`.
